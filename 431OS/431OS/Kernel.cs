@@ -14,20 +14,23 @@ namespace _431OS
         protected override void Run()
         {
             var input = Console.ReadLine();
-            command(input);
+            Command(input);
         }
 
-        private void command(String input)
+        private void Command(String input)
         {
-            String[] command = input.Split(' ');
-            switch (command[0])
+            if (!input.Equals(""))
             {
-                case "echo":
-                    Console.WriteLine();
-                    break;
-                default:
-                    Console.WriteLine("Not a valid input.");
-                    break;
+                String[] command = input.Split(' ');
+                switch (command[0])
+                {
+                    case "echo":
+                        Console.WriteLine(input.Substring(5));
+                        break;
+                    default:
+                        Console.WriteLine("Not a valid input.");
+                        break;
+                }
             }
         }
     }
