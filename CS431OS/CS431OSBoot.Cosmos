@@ -3,9 +3,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{840f0445-2a91-45cb-8fd7-77e1ad005827}</ProjectGuid>
+    <ProjectGuid>{f47439d9-0d7c-4355-8eb2-acca7f2ae6c2}</ProjectGuid>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <Name>431OSBoot</Name>
+    <Name>CS431OSBoot</Name>
     <BinFormat>elf</BinFormat>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
@@ -21,16 +21,16 @@
     <StartCosmosGDB>false</StartCosmosGDB>
     <VMWareEdition>Player</VMWareEdition>
     <OutputPath>bin\Debug\</OutputPath>
-    <Name>431OSBoot</Name>
+    <Name>CS431OSBoot</Name>
     <Description>Use VMware Player or Workstation to deploy and debug.</Description>
     <Deployment>ISO</Deployment>
     <Launch>VMware</Launch>
     <VisualStudioDebugPort>Pipe: Cosmos\Serial</VisualStudioDebugPort>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include=".\431OS.csproj">
-      <Name>431OS</Name>
-      <Project>{188b77b7-258b-46ad-9bc6-63b82d16bb17}</Project>
+    <ProjectReference Include=".\CS431OS.csproj">
+      <Name>CS431OS</Name>
+      <Project>{d3463d27-c161-4b80-bb11-ecb03b124175}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

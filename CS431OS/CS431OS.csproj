@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{188B77B7-258B-46AD-9BC6-63B82D16BB17}</ProjectGuid>
+    <ProjectGuid>{D3463D27-C161-4B80-BB11-ECB03B124175}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_431OS</RootNamespace>
-    <AssemblyName>431OS</AssemblyName>
+    <RootNamespace>CS431OS</RootNamespace>
+    <AssemblyName>CS431OS</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>

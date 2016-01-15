@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
 
-namespace _431OS
+namespace CS431OS
 {
     public class Kernel : Sys.Kernel
     {
@@ -19,7 +19,7 @@ namespace _431OS
 
         private void Command(String input)
         {
-            if (!input.Equals(""))
+            if (input.Length > 0)
             {
                 String[] command = input.Split(' ');
                 switch (command[0])
